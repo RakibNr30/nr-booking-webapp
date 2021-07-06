@@ -1,0 +1,99 @@
+.uniform-uploader {
+    width: 100%;
+}
+.image-output {
+    height: 100px;
+    margin-top: 10px;
+}
+.image-output img {
+    height: 100%;
+    border: 1px solid #EC407A;
+}
+.dataTables_wrapper {
+    margin-top: 10px;
+}
+div.dataTables_wrapper div.dataTables_filter {
+    float: right;
+}
+.dataTables_length {
+    float: left;
+    margin: unset;
+}
+div.dataTables_wrapper div.dataTables_length select {
+    width: 65px !important;
+}
+#data_table_wrapper.dataTables_wrapper.dt-bootstrap4 .row:first-child .col-sm-12 {
+    flex: 0 0 50% !important;
+    max-width: 50% !important;
+}
+select[data-fouc]:not([aria-hidden=false]) {
+    opacity: 1;
+}
+.nav-sidebar .nav-item:not(.nav-item-header):first-child {
+    padding-top: 0;
+}
+.nav-sidebar .nav-item:not(.nav-item-header):last-child {
+    padding-bottom: 0;
+}
+.fas.flaticon-rice,
+.fas.icon-coin-euro {
+    font-size: 20px;
+}
+.sidebar .sidebar-content .user__image {
+    height: 170px;
+    width: 170px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sidebar .sidebar-content .user__image_small {
+    height: 38px;
+    width: 38px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar .dropdown-user .user__image_small {
+    height: 34px;
+    width: 34px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content .user__image {
+    height: 170px;
+    width: 170px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.page-content {
+    margin-top: 24px;
+}
+.sidebar-expand-md.sidebar-main .sidebar-content {
+    margin-top: 24px;
+}
+.dropdown-user .navbar-nav-link, .dropdown-user .navbar-nav-link>span {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+@media only screen and (max-width: 767px) {
+    .sidebar-expand-md.sidebar-main .sidebar-content {
+        margin-top: 0;
+    }
+    .navbar-toggler {
+        padding: 25px 0;
+    }
+}

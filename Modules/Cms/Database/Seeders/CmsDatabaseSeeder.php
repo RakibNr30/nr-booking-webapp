@@ -1,0 +1,32 @@
+<?php
+
+namespace Modules\Cms\Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\File;
+use Modules\Cms\Entities\Country;
+use Modules\Ums\Entities\Role;
+
+class CmsDatabaseSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        Model::unguard();
+
+        $this->seedCountries();
+    }
+
+    private function seedCountries()
+    {
+        $data = json_decode(File::get(resource_path('seed/' . config('core.theme') . '/cms/country.json')), true);
+        foreach ($data as $datum) {
+            Country::create($datum);
+        }
+    }
+}

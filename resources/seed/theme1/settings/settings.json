@@ -1,0 +1,12 @@
+{
+    "api": {
+        "sandbox_username": "sb-skjx476314218_api1.business.example.com",
+        "sandbox_password": "8NDMQ6WV5K7TCHL6",
+        "sandbox_secret": "A8k7O2-S8IcLHZW7Go4s73rVrEQvApzdTrDLY4us1oRm3vnD90.59yu3",
+        "sandbox_certificate": null,
+        "sandbox_app_id": "APP-80W284485P519543T",
+        "currency": "USD",
+        "stripe_key": "pk_test_51J3k4pK5K1mZ2nmfiMCRRuUNI1Mtj00I6LC7ttfw2BUiC5xxgUrymSWfsuruwLD9lh97PF2U3uQwvfgSym4sPXuV00mFc36IwR",
+        "stripe_secret": "sk_test_51J3k4pK5K1mZ2nmfvou7kUmEWeYPZv6zk5BPEhhgNG8EKtpeLz8u5FNSaCQ2erZoGkiGCX1MVka1L33QfJqDxWF400NITsFTIH"
+    }
+}

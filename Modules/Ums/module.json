@@ -1,0 +1,13 @@
+{
+    "name": "Ums",
+    "alias": "ums",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Ums\\Providers\\UmsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

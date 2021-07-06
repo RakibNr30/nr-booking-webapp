@@ -1,0 +1,259 @@
+@extends('admin.layouts.master', ['active' => [3, 0, 0]])
+
+@section('content')
+    <div class="page-header page-header-light">
+        <div class="page-header-content header-elements-md-inline">
+            <div class="page-title d-flex">
+                <h4>
+                    <i class="icon-arrow-left52 mr-2"></i>
+                    <span class="font-weight-semibold">Hotel</span> - Create
+                </h4>
+            </div>
+        </div>
+        <div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
+            <div class="d-flex">
+                <div class="breadcrumb">
+                    <a href="{{ route('backend.cms.dashboard.index') }}" class="breadcrumb-item">
+                        <i class="icon-home2 mr-2"></i> Dashboard
+                    </a>
+                    <a href="{{ route('backend.cms.hotel.index') }}" class="breadcrumb-item">
+                        Hotel
+                    </a>
+                    <span class="breadcrumb-item active">Create</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="row">
+            <div class="col-md-12">
+                @include('admin.partials._alert')
+                <div class="card">
+                    <div class="card-header header-elements-inline">
+                        <h5 class="card-name">Create Hotel</h5>
+                        <div class="header-elements">
+                            <div class="list-icons">
+                                <a class="list-icons-item" data-action="collapse"></a>
+                                <a class="list-icons-item" data-action="reload"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    {!! Form::open(['url' => route('backend.cms.hotel.store'), 'method' => 'hotel', 'files' => true]) !!}
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="name" class="@error('name') text-danger @enderror">Name of Hotel</label>
+                                    <input id="name" name="name" value="{{ old('name') }}" type="text" class="form-control @error('name') is-invalid @enderror" placeholder="Enter name" autofocus>
+                                    @error('name')
+                                    <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="continent" class="@error('continent') text-danger @enderror">Continent</label>
+                                    <select id="continent" name="continent"
+                                            class="form-control @error('continent') is-invalid @enderror">
+                                        <option value="">Select Continent</option>
+                                        @foreach(config('core.continents') as $continent_key => $continent)
+                                            <option value="{{ $continent_key }}" {{ $continent_key == old('continent') ? 'selected' : '' }}>{{ $continent }}
+                                            </option>
+                                        @endforeach
+                                    </select>
+                                    @error('continent')
+                                    <span class="invalid-feedback"
+                                          role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="location" class="@error('location') text-danger @enderror">Location</label>
+                                    <div id="geocoder"></div>
+                                    {{--
+                                    <input id="location" name="location" value="{{ old('location') }}" type="text" class="form-control @error('location') is-invalid @enderror" placeholder="Enter location" autofocus>
+                                    --}}
+                                    @error('location')
+                                    <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="about" class="@error('about') text-danger @enderror">About Hotel</label>
+                                    <textarea id="about" name="about" class="form-control ck-text-editor @error('about') is-invalid @enderror" rows="3" placeholder="Enter about">{{ old('about') }}</textarea>
+                                    @error('about')
+                                    <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="room_type" class="@error('room_type') text-danger @enderror">Room Type</label>
+                                    <input id="room_type" name="room_type" value="{{ old('room_type') }}" type="text" class="form-control @error('room_type') is-invalid @enderror" placeholder="Enter room type" autofocus>
+                                    @error('room_type')
+                                    <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="board_type" class="@error('board_type') text-danger @enderror">Board Type</label>
+                                    <input id="board_type" name="board_type" value="{{ old('board_type') }}" type="text" class="form-control @error('board_type') is-invalid @enderror" placeholder="Enter board type" autofocus>
+                                    @error('board_type')
+                                    <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="checkin_time" class="@error('checkin_time') text-danger @enderror">Check In Time</label>
+                                    <input id="checkin_time" name="checkin_time" value="{{ old('checkin_time') }}" type="text" class="form-control timepicker @error('checkin_time') is-invalid @enderror" placeholder="Enter check in time" autofocus>
+                                    @error('checkin_time')
+                                    <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="checkout_time" class="@error('checkout_time') text-danger @enderror">Checkout Time</label>
+                                    <input id="checkout_time" name="checkout_time" value="{{ old('checkout_time') }}" type="text" class="form-control timepicker @error('checkout_time') is-invalid @enderror" placeholder="Enter checkout time" autofocus>
+                                    @error('checkout_time')
+                                    <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="cost_per_night" class="@error('cost_per_night') text-danger @enderror">Cost Per Night (USD)</label>
+                                    <input id="cost_per_night" name="cost_per_night" value="{{ old('cost_per_night') }}" type="number" min="0" step="any" class="form-control @error('cost_per_night') is-invalid @enderror" placeholder="Enter cost per night" autofocus>
+                                    @error('cost_per_night')
+                                    <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="feature_image" class="@error('feature_image') text-danger @enderror">Feature Image</label>
+                                    <div class="uniform-uploader">
+                                        <input id="feature_image" name="feature_image" value="{{ old('feature_image') }}" type="file" class="form-control form-input-styled @error('feature_image') is-invalid @enderror" data-fouc="">
+                                    </div>
+                                    @error('feature_image')
+                                    <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="slider_images" class="@error('slider_images') text-danger @enderror">Slider Images</label>
+                                    <div class="uniform-uploader">
+                                        <input id="slider_images" name="slider_images[]" value="{{ old('slider_images') }}" type="file" class="form-control form-input-styled @error('slider_images') is-invalid @enderror" data-fouc="" multiple>
+                                    </div>
+                                    @error('slider_images')
+                                    <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            {{--<div class="card w-100">
+                                <div class="card-body">
+                                    <p class="font-weight-semibold">
+                                        Upload Slider Image
+                                    </p>
+                                    <div action="#" class="dropzone" id="dropzone_remove">
+
+                                    </div>
+                                </div>
+                            </div>--}}
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="others_feature" class="@error('others_feature') text-danger @enderror">Others Feature</label>
+                                    <textarea id="others_feature" name="others_feature" class="form-control ck-text-editor @error('others_feature') is-invalid @enderror" rows="3" placeholder="Enter others feature">{{ old('others_feature') }}</textarea>
+                                    @error('others_feature')
+                                    <span class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></span>
+                                    @enderror
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <div class="text-right">
+                                        <button type="submit" class="btn btn-primary">Submit
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {!! Form::close() !!}
+
+                </div>
+            </div>
+        </div>
+    </div>
+@stop
+
+@section('style')
+    <link href="{{ asset('common/plugins/mapbox/css/mapbox-gl.css') }}" rel="stylesheet">
+    <link href="{{ asset('common/plugins/mapbox/css/mapbox-gl-geocoder.css') }}" rel="stylesheet">
+
+    <style>
+        .mapboxgl-ctrl-geocoder {
+            width: 100%;
+            max-width: unset;
+        }
+        .mapboxgl-ctrl-geocoder--input {
+            border-radius: 5px;
+            padding-left: 40px;
+            background: #fff;
+            border: 1px solid #e3e8f3;
+            overflow: hidden;
+            box-shadow: none;
+            -webkit-box-shadow: none;
+        }
+        .mapboxgl-ctrl-geocoder, .mapboxgl-ctrl-geocoder .suggestions {
+            box-shadow: none;
+        }
+    </style>
+@stop
+
+@section('script')
+    <script src="{{ asset('admin/global/js/plugins/uploaders/dropzone.min.js') }}"></script>
+    <script src="{{ asset('admin/global/js/demo_pages/uploader_dropzone.js') }}"></script>
+@stop
+
+@section('script_bottom')
+    <script src="{{ asset('common/plugins/mapbox/js/mapbox-gl.js') }}"></script>
+    <script src="{{ asset('common/plugins/mapbox/js/mapbox-gl-geocoder.min.js') }}"></script>
+    <script src="{{ asset('common/plugins/mapbox/js/es6-promise.min.js') }}"></script>
+    <script src="{{ asset('common/plugins/mapbox/js/es6-promise.auto.min.js') }}"></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoicmFraWJucjMwIiwiYSI6ImNrcGQ2cHZkejA5cXMyb3Q2enV0azFzZnEifQ.eh9EyKO8cga0v7usw-GacQ';
+        var geocoder = new MapboxGeocoder({
+            accessToken: mapboxgl.accessToken,
+            types: 'country,region,place,postcode,locality,neighborhood'
+        });
+        geocoder.addTo('#geocoder');
+
+        // Add geocoder result to container.
+        geocoder.on('result', function(e) {
+            console.log(e.result.place_name);
+        });
+
+        // Clear results container when search is cleared.
+        geocoder.on('clear', function() {
+            results.innerText = '';
+        });
+    </script>
+
+    <script>
+        let loc = $('.mapboxgl-ctrl-geocoder--input');
+        loc.attr('name', 'location');
+        loc.attr('placeholder', 'Enter location');
+        loc.addClass('form-control @error("location") is-invalid @enderror');
+        loc.val('{{ old('location') }}');
+    </script>
+@stop

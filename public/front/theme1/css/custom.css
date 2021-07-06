@@ -1,0 +1,13 @@
+.header {
+    border-top: 2px solid rgb(228, 7, 78);
+}
+.Reveal-grid-reviews p.overall-reviews {
+    color: #516175;
+    font-weight: 400;
+}
+.Reveal-grid-footer .Reveal-author-header h4 span {
+    display: inline;
+    font-size: 22px;
+    color: #EA1B41;
+    font-weight: 500;
+}

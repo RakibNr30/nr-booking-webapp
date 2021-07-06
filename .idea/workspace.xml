@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99c1769c-e3db-4f4b-bc23-fe1a08c1504e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nr-booking-webapp@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nr-booking-webapp@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nr-booking-webapp@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="nr-booking-webapp: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="nr-booking-webapp@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="nr-booking-webapp: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="contacts: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>',</find>
+      <find>About</find>
+      <find>hotel</find>
+      <find>booking</find>
+      <find>../../../..</find>
+      <find>Faq</find>
+      <find>question</find>
+      <find>answer</find>
+      <find>faq</find>
+      <find>feature_image</find>
+      <find>others_service</find>
+      <find>&quot;&gt;</find>
+      <find>about</find>
+      <find>mission</find>
+      <find>vision</find>
+      <find>blood_group</find>
+      <find>assets/img</find>
+      <find>css/</find>
+      <find>js/</find>
+      <find>revolution/</find>
+      <find>front/theme2/</find>
+      <find>theme1</find>
+      <find>&quot;images/</find>
+      <find>theme2</find>
+      <find>.js</find>
+      <find>{{ asset('</find>
+      <find>front/</find>
+      <find>.css</find>
+      <find>images/</find>
+      <find>0px</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>feature_image</replace>
+      <replace>$hotel</replace>
+      <replace>' =&gt; 'string',</replace>
+      <replace>Booking</replace>
+      <replace>booking</replace>
+      <replace>bookings</replace>
+      <replace>admin</replace>
+      <replace>HotelView</replace>
+      <replace>title</replace>
+      <replace>description</replace>
+      <replace>page</replace>
+      <replace>slider_images</replace>
+      <replace>others_feature</replace>
+      <replace>quality_assured</replace>
+      <replace>hotel_search</replace>
+      <replace>we_care_you_happy</replace>
+      <replace>continent</replace>
+      <replace>front/theme1/img</replace>
+      <replace>front/theme2/</replace>
+      <replace>front/theme2/js/</replace>
+      <replace>front/theme2/revolution/</replace>
+      <replace>front/theme2/css/</replace>
+      <replace>theme2</replace>
+      <replace>&quot;front/theme2/images/</replace>
+      <replace>. config('core.theme') .</replace>
+      <replace>{{ asset('front/</replace>
+      <replace>.css') }}</replace>
+      <replace>.js</replace>
+      <replace>front/theme2/images/</replace>
+      <replace>0</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\public\front\fonts</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\public\front\fonts\custom</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\public\admin\global</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\Modules\Cms\Resources\views\news</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\Modules\Cms\Resources\views\cases</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\Modules\Cms\Resources\views\testimonial</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\Modules\Cms\Resources\views\partner</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\Modules\Cms</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\Modules\Cms\Resources\views\banner</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\Modules\Setting\Resources\views\seo</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\Modules\Setting\Resources\views\contact</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\Modules\Ums\Resources\views\admin</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\Modules\Cms\Resources\views\faq</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\resources</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity-app\Modules\Ums\Resources\views</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity\Modules\Front\Resources\views</dir>
+      <dir>E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Modules/Cms/Resources/views/about/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Providers/MigrationServiceProvider.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/Http/Controllers/HotelController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_bookings_table.php" />
+        <option value="$PROJECT_DIR$/app/Exports/BookingsExport.php" />
+        <option value="$PROJECT_DIR$/app/Exports/SingleBookingExport.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_06_28_111401_create_hotels_table.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/Entities/Hotel.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/Http/Requests/HotelStoreRequest.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/Http/Requests/HotelUpdateRequest.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/DataTables/BookingDataTable.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/theme1/partials/_alert.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/Entities/Booking.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/Resources/views/booking/show.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Http/Controllers/HotelController.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme1/hotel/booking.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme1/hotel/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/theme1/partials/_footer.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Routes/web.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/Services/HotelService.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/Modules/Front/Http/Controllers/DestinationController.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme1/destination/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/theme2/partials/_preloader.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/theme2/partials/_back_to_top.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/theme2/layouts/__master.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/Resources/views/hotel/create.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/Resources/views/hotel/edit.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Services/HomeService.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/Http/Requests/BannerUpdateRequest.php" />
+        <option value="$PROJECT_DIR$/Modules/Cms/Entities/Banner.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme1/home/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/theme2/layouts/master.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme2/contact/index.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme1/contact/index.blade.php" />
+        <option value="$PROJECT_DIR$/config/core.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/front/theme2/partials/_footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/theme2/partials/_header.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme2/home/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/theme2/partials/_pagination.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme1/destination/show.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme1/hotel/index.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme2/destination/index.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme2/destination/show.blade.php" />
+        <option value="$PROJECT_DIR$/Modules/Front/Resources/views/theme2/faq/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/front/theme2/css/styles.css" />
+        <option value="$PROJECT_DIR$/public/front/theme2/css/custom.css" />
+      </list>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/Modules/Cms/package.json" />
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/fruitcake/laravel-cors" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/nwidart/laravel-modules" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/league/glide" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-medialibrary" />
+      <path value="$PROJECT_DIR$/vendor/spatie/image-optimizer" />
+      <path value="$PROJECT_DIR$/vendor/spatie/image" />
+      <path value="$PROJECT_DIR$/vendor/spatie/temporary-directory" />
+      <path value="$PROJECT_DIR$/vendor/org_heigl/ghostscript" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/spatie/pdf-to-image" />
+      <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/league/fractal" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-editor" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-fractal" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-buttons" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-html" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/codetoad/strava" />
+      <path value="$PROJECT_DIR$/vendor/srmklive/paypal" />
+      <path value="$PROJECT_DIR$/vendor/arielmejiadev/larapex-charts" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/stripe/stripe-php" />
+      <path value="$PROJECT_DIR$/vendor/moneyphp/money" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/laravel/cashier" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="y" value="50" />
+    <option name="width" value="985" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nr-booking-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nr-booking-webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nr-booking-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nr-booking-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nr-booking-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nr-booking-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nr-booking-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nr-booking-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nr-booking-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nr-booking-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nr-booking-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nr-booking-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="theme2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nr-booking-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nr-booking-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="theme2" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nr-booking-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nr-booking-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="theme2" type="462c0819:PsiDirectoryNode" />
+              <item name="destination" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nr-booking-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nr-booking-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="theme2" type="462c0819:PsiDirectoryNode" />
+              <item name="faq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nr-booking-webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nr-booking-webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="theme2" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/front/theme1/images/default" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CODINGs\MyProjects\Laravel-Framework\nr-booking-webapp\Modules\Cms\Resources\views" />
+      <recent name="E:\CODINGs\MyProjects\Laravel-Framework\nr-booking-webapp\resources\seed\theme1" />
+      <recent name="E:\CODINGs\MyProjects\Laravel-Framework\nr-booking-webapp\resources\views\front\theme1" />
+      <recent name="E:\CODINGs\MyProjects\Laravel-Framework\nr-booking-webapp\Modules\Front\Resources\views\theme1" />
+      <recent name="E:\CODINGs\MyProjects\Laravel-Framework\nr-athlete-charity\app\Polyline" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CODINGs\MyProjects\Laravel\nr-booking-webapp\public\front\theme1\images\default" />
+      <recent name="E:\CODINGs\MyProjects\Laravel\nr-booking-webapp\public\front\theme2\images\default" />
+      <recent name="E:\CODINGs\MyProjects\Laravel\nr-booking-webapp\public\front\theme2\js" />
+      <recent name="E:\CODINGs\MyProjects\Laravel\nr-booking-webapp\Modules\Front\Resources\views" />
+      <recent name="E:\CODINGs\MyProjects\Laravel\nr-booking-webapp\resources\views\front" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99c1769c-e3db-4f4b-bc23-fe1a08c1504e" name="Default Changelist" comment="" />
+      <created>1618848307946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618848307946</updated>
+      <workItem from="1618848309177" duration="13362000" />
+      <workItem from="1618906217877" duration="10899000" />
+      <workItem from="1618925060795" duration="195000" />
+      <workItem from="1618947714324" duration="7216000" />
+      <workItem from="1618983741307" duration="5117000" />
+      <workItem from="1618992529552" duration="6160000" />
+      <workItem from="1619423296053" duration="6000" />
+      <workItem from="1619426444196" duration="15000" />
+      <workItem from="1619429290373" duration="8764000" />
+      <workItem from="1619451180332" duration="39000" />
+      <workItem from="1619607357193" duration="857000" />
+      <workItem from="1619609286996" duration="6417000" />
+      <workItem from="1619674096641" duration="7167000" />
+      <workItem from="1619686207800" duration="8214000" />
+      <workItem from="1619701979114" duration="31000" />
+      <workItem from="1619710690928" duration="13681000" />
+      <workItem from="1619779350289" duration="1494000" />
+      <workItem from="1619791506186" duration="63000" />
+      <workItem from="1619878194928" duration="579000" />
+      <workItem from="1619883060590" duration="22982000" />
+      <workItem from="1619949105450" duration="281000" />
+      <workItem from="1620041690758" duration="2357000" />
+      <workItem from="1620047813575" duration="8491000" />
+      <workItem from="1620069638791" duration="7564000" />
+      <workItem from="1620103857536" duration="94000" />
+      <workItem from="1620104699951" duration="6660000" />
+      <workItem from="1620139644261" duration="268000" />
+      <workItem from="1620147237576" duration="15120000" />
+      <workItem from="1620209066025" duration="12465000" />
+      <workItem from="1620228130448" duration="12820000" />
+      <workItem from="1620320511472" duration="2253000" />
+      <workItem from="1620332449461" duration="510000" />
+      <workItem from="1620380335913" duration="1037000" />
+      <workItem from="1620585587250" duration="10065000" />
+      <workItem from="1620626551302" duration="5151000" />
+      <workItem from="1620631876011" duration="4000" />
+      <workItem from="1620635347137" duration="10522000" />
+      <workItem from="1620657199395" duration="11928000" />
+      <workItem from="1620764716779" duration="3351000" />
+      <workItem from="1620838600492" duration="20000" />
+      <workItem from="1621076410134" duration="7144000" />
+      <workItem from="1621104167942" duration="2403000" />
+      <workItem from="1621106910831" duration="369000" />
+      <workItem from="1621166452125" duration="1233000" />
+      <workItem from="1621168578373" duration="1138000" />
+      <workItem from="1621187458124" duration="46000" />
+      <workItem from="1621192221356" duration="171000" />
+      <workItem from="1621411986259" duration="21689000" />
+      <workItem from="1621501891958" duration="20093000" />
+      <workItem from="1621617794388" duration="8566000" />
+      <workItem from="1621674834522" duration="8950000" />
+      <workItem from="1621754246326" duration="11321000" />
+      <workItem from="1621773963499" duration="17360000" />
+      <workItem from="1621844201741" duration="47000" />
+      <workItem from="1621873116489" duration="620000" />
+      <workItem from="1621937690203" duration="6585000" />
+      <workItem from="1621946181056" duration="12000" />
+      <workItem from="1621974436284" duration="2800000" />
+      <workItem from="1621980359254" duration="7459000" />
+      <workItem from="1621988107885" duration="13000" />
+      <workItem from="1621988197609" duration="210000" />
+      <workItem from="1622016098191" duration="10260000" />
+      <workItem from="1622029423938" duration="37794000" />
+      <workItem from="1622108154602" duration="16649000" />
+      <workItem from="1622127656414" duration="1904000" />
+      <workItem from="1622134455995" duration="764000" />
+      <workItem from="1622137810413" duration="2638000" />
+      <workItem from="1622147963707" duration="998000" />
+      <workItem from="1622149637758" duration="1423000" />
+      <workItem from="1622194331522" duration="638000" />
+      <workItem from="1622195646749" duration="915000" />
+      <workItem from="1622275967359" duration="1691000" />
+      <workItem from="1622278874404" duration="2933000" />
+      <workItem from="1622282890398" duration="903000" />
+      <workItem from="1622468197622" duration="6594000" />
+      <workItem from="1622483786512" duration="13782000" />
+      <workItem from="1622536980166" duration="28800000" />
+      <workItem from="1622635940656" duration="2771000" />
+      <workItem from="1622707915109" duration="9699000" />
+      <workItem from="1622724654753" duration="484000" />
+      <workItem from="1622725371228" duration="5538000" />
+      <workItem from="1622731590410" duration="77000" />
+      <workItem from="1622731891471" duration="1769000" />
+      <workItem from="1622734699696" duration="1760000" />
+      <workItem from="1623174260167" duration="8557000" />
+      <workItem from="1623230784309" duration="15463000" />
+      <workItem from="1623317376516" duration="4423000" />
+      <workItem from="1623324028583" duration="49000" />
+      <workItem from="1623325153923" duration="631000" />
+      <workItem from="1623357086238" duration="664000" />
+      <workItem from="1623406425716" duration="343000" />
+      <workItem from="1624025707617" duration="26503000" />
+      <workItem from="1624092839936" duration="45000" />
+      <workItem from="1624802369527" duration="13809000" />
+      <workItem from="1624873168905" duration="16265000" />
+      <workItem from="1624894473167" duration="13201000" />
+      <workItem from="1624992244417" duration="12539000" />
+      <workItem from="1625042463698" duration="33242000" />
+      <workItem from="1625093686782" duration="7422000" />
+      <workItem from="1625130839560" duration="29326000" />
+      <workItem from="1625166123961" duration="4847000" />
+      <workItem from="1625180046423" duration="7939000" />
+      <workItem from="1625215787866" duration="5982000" />
+      <workItem from="1625225787133" duration="4771000" />
+      <workItem from="1625232357238" duration="31814000" />
+      <workItem from="1625423379818" duration="961000" />
+      <workItem from="1625481911654" duration="12358000" />
+      <workItem from="1625499686818" duration="74000" />
+      <workItem from="1625500181442" duration="10274000" />
+      <workItem from="1625529416781" duration="18245000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="772979000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.20134228" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26203966" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.15100671" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.20134228" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26203966" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.15100671" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Modules/Cms/Http/Controllers/HotelController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1276">
+          <caret line="151" column="9" lean-forward="true" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
+          <folding>
+            <element signature="e#48#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme1/hotel/booking.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme1/hotel/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Cms/Services/AboutService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Http/Controllers/HotelController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Cms/Services/HotelService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="136" column="5" lean-forward="true" selection-start-line="136" selection-start-column="5" selection-end-line="136" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2f7ee18b-5e17-4ae9-bdf1-1fae498b5f6b/schema/nr-booking-webapp/table/hotels">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Http/Controllers/DestinationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#50#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme1/destination/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/theme2/partials/_preloader.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/theme2/partials/_back_to_top.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/theme1/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/theme2/layouts/__master.blade.php" />
+    <entry file="file://$PROJECT_DIR$/public/front/theme2/js/daterangepicker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Cms/Resources/views/hotel/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="254" column="8" selection-start-line="254" selection-start-column="8" selection-end-line="254" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Cms/Resources/views/hotel/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="320" column="50" selection-start-line="320" selection-start-column="50" selection-end-line="320" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Cms/Providers/GlobalDataServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Cms/Services/BannerService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Services/HomeService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#42#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="e#50#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Cms/Http/Requests/BannerUpdateRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Cms/Http/Controllers/BannerController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Cms/Entities/Banner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2f7ee18b-5e17-4ae9-bdf1-1fae498b5f6b/schema/nr-booking-webapp/table/media">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/theme2/images/default/banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/theme2/images/default/logo-light.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/theme2/images/default/preview.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/theme2/images/default/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/theme2/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="41" column="65" lean-forward="true" selection-start-line="41" selection-start-column="65" selection-end-line="41" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme1/faq/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme1/contact/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/theme2/css/dashbord-mobile-menu.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/theme1/partials/_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/theme1/partials/_footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/theme2/partials/_footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/theme2/partials/_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/theme2/partials/_pagination.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme1/home/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="173" selection-start-line="6" selection-start-column="173" selection-end-line="6" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme1/hotel/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme1/destination/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme2/destination/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme2/contact/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme2/faq/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme2/home/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="191" column="9" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modules/Front/Resources/views/theme2/destination/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#138#296#0#HTML" expanded="true" />
+            <element signature="e#1084#1108#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/theme2/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="14610" column="1" selection-start-line="14610" selection-start-column="1" selection-end-line="14610" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/theme2/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
