@@ -4,7 +4,8 @@
 @stop
 
 @php
-    $bill = $data->hotel->cost_per_night * $data->totalNight;
+    $perNight = $data->hotel->cost_per_night;
+    $bill = $perNight * $data->totalNight;
     $tax = $bill * 0.127;
     $total = $bill + $tax;
 
@@ -238,7 +239,7 @@
                                     <hr style="border-color: #2D3954;">
                                     <div class="row">
                                         <div class="col-6 text-left">
-                                            <span class="left">${{ round($bill, 2) }} x {{ $data->totalNight }} Night(s)</span>
+                                            <span class="left">${{ round($perNight, 2) }} x {{ $data->totalNight }} Night(s)</span>
                                         </div>
                                         <div class="col-6 text-right">
                                             <span class="right">${{ round($bill , 2)  }}</span>

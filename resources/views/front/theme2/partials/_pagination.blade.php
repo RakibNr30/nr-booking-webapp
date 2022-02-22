@@ -68,4 +68,17 @@
         background-color: #fff !important;
         border-color: #e4074e;
     }
+    /*@media screen and ( max-width: 400px ){
+        li.page-item {
+            display: none;
+        }
+        .page-item:first-child,
+        .page-item:nth-child(3),
+        .page-item:nth-last-child(3),
+        .page-item:last-child,
+        .page-item.active,
+        .page-item.disabled {
+            display: block;
+        }
+    }*/
 </style>

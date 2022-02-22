@@ -80,21 +80,19 @@
                         </div>
                     @endforeach
                 </div>
-            @else
-                <div class="text-center m-auto">
-                    <i class="fa fa-exclamation-circle fa-2x"></i>
-                    <h4>No Hotel Found</h4>
-                </div>
-            @endif
-            @if(count($data->hotels))
                 <div class="row">
                     <div class="col-md-12 col-sm-12 mt-3">
                         <div class="text-center">
 
-                            {!! $data->hotels->appends(request()->all())->links('front.' . config('core.theme') . '.partials._pagination') !!}
+                            {!! $data->hotels->appends(request()->all())->onEachSide(0)->links('front.' . config('core.theme') . '.partials._pagination') !!}
 
                         </div>
                     </div>
+                </div>
+            @else
+                <div class="text-center m-auto">
+                    <i class="fa fa-exclamation-circle fa-2x"></i>
+                    <h4>No Hotel Found</h4>
                 </div>
             @endif
         </div>
@@ -112,7 +110,7 @@
         .listings .project-inner .homes .image:hover {}
         .custom-btn {
             padding: 4px 12px;
-            background: #FA2964;
+            background: #004680;
             color: #fff !important;
             border-radius: 4px;
         }
@@ -133,7 +131,7 @@
             padding: 40px 0 40px 0;
         }
         section.headings-2 p span {
-            color: #FA2964;
+            color: #004680;
             font-weight: 600;
             font-size: 20px;
         }

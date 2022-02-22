@@ -177,7 +177,7 @@ header.fullwidth .container {
     padding-right: 0;
 }
 a.button.border {
-    border: 1px solid #fa2964;
+    border: 1px solid #004680;
 }
 a.button.border {
     background-color: transparent;
@@ -186,7 +186,7 @@ a.button.border {
     padding: 9px 19px;
 }
 a.button.border, a.button {
-    background-color: #fa2964;
+    background-color: #004680;
     top: 0;
     padding: 10px 20px;
     color: #fff;
@@ -477,7 +477,7 @@ a.button.border, a.button {
 ------------------------------------- */
 #navigation.style-1 .current {
     background-color: transparent;
-    color: #fa2964;
+    color: #004680;
     padding: 5px 15px;
     border-radius: 3px;
 }
@@ -504,8 +504,8 @@ a.button.border, a.button {
     border-radius: 3px;
 }
 #navigation.style-1 ul li:hover {
-    background-color: #fa2964;
-    color: #fa2964;
+    background-color: #004680;
+    color: #004680;
 }
 #navigation.style-1 ul li:hover a {
     color: #fff;

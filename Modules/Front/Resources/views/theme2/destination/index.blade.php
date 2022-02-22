@@ -38,7 +38,7 @@
 @section('style')
     <style>
         .feature-cities-1 .img-box-content {
-            background: #fa2964d1;
+            background: rgba(0, 70, 128, 0.89);
             padding: 3px 20px;
             border-radius: 10px;
         }

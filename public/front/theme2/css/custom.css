@@ -20,7 +20,7 @@
 .popular .footer h6 span {
     float: none;
     font-size: 20px;
-    color: #FA2964;
+    color: #004680;
     font-weight: 600;
 }
 .left-side {
@@ -29,9 +29,12 @@
 #navigation {
     float: right;
 }
-.first-footer .netsocials a .fa-instagram {
+.first-footer .netsocials a .fa-instagram,
+.first-footer .netsocials a .fa-facebook,
+.first-footer .netsocials a .fa-twitter,
+.first-footer .netsocials a .fa-youtube {
     background: transparent;
-    color: #fa2964;
+    color: #fff;
 }
 .first-footer .netsocials a .fa-instagram:hover {
     background: #c620f2;
@@ -41,7 +44,7 @@
     font-size: 0.7rem;
 }
 .fa-exclamation-circle.fa-2x {
-    color: #fa2964;
+    color: #004680;
 }
 .inner-pages .c_details_item .media .media-body p,
 .inner-pages .c_details_item .media .media-body a {
@@ -64,4 +67,26 @@
 }
 .inner-pages .headings h1 {
     /margin-top: 13.5rem;
+}
+.inner-pages .headings {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.first-footer .top-footer {
+    background: rgb(0 40 72 / 98%);
+    //background: #ddd;
+}
+.first-footer h3,
+.widget.quick-link ul li a,
+.first-footer .netabout p,
+.first-footer .contactus .info p {
+    //color: #000;
+}
+.widget.quick-link ul li a:before {
+    //color: #004680;
+}
+.second-footer {
+    //background: #777474;
+    //background: #004680;
 }

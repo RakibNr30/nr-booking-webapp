@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Dashboard",
+        "roles": [
+            "Super Admin",
+            "Admin"
+        ]
+    },
+    {
+        "name": "My Profile",
+        "roles": [
+            "Super Admin",
+            "Admin"
+        ]
+    },
+    {
+        "name": "Cms",
+        "roles": [
+            "Super Admin",
+            "Admin"
+        ]
+    },
+    {
+        "name": "Hotels",
+        "roles": [
+            "Super Admin",
+            "Admin"
+        ]
+    },
+    {
+        "name": "Bookings",
+        "roles": [
+            "Super Admin",
+            "Admin"
+        ]
+    },
+    {
+        "name": "User Controls",
+        "roles": [
+            "Super Admin",
+            "Admin"
+        ]
+    },
+    {
+        "name": "App Settings",
+        "roles": [
+            "Super Admin",
+            "Admin"
+        ]
+    }
+]

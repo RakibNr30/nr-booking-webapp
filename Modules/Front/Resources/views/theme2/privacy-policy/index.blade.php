@@ -4,34 +4,32 @@
 @stop
 
 @section('content')
-    <div class="image-cover page-title" style="background:url({{ $globalSite->breadcrumb_image->file_url ?? config('core.image.' . config('core.theme') . '.default.breadcrumb_image') }}) no-repeat;" data-overlay="6">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <h2 class="ipt-title">Privacy & Policy</h2>
-                </div>
+    <section class="headings" style="background:url({{ $globalSite->breadcrumb_image->file_url ?? config('core.image.' . config('core.theme') . '.default.breadcrumb_image') }}) no-repeat;">
+        <div class="text-heading text-center">
+            <div class="container">
+                <h1>Privacy & Policy</h1>
+                <h2>
+                    <a href="{{ route('front.index') }}">Home </a> &nbsp;/&nbsp; Privacy & Policy
+                </h2>
             </div>
         </div>
-    </div>
+    </section>
 
-    <section>
+    <section class="blog blog-section">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-12">
-                    <div class="about-captione">
-                        @if($data->privacyPolicy->description != '')
-                            <div>
-                                {!! $data->privacyPolicy->description !!}
-                            </div>
-                        @else
-                            <div class="text-center">
-                                <i class="fa fa-exclamation-circle fa-2x"></i>
-                                <h4>No privacy & policy Found</h4>
-                            </div>
-                        @endif
-                    </div>
+            <div class="row">
+                <div class="col-md-12 blog-pots">
+                    @if($data->privacyPolicy->description != '')
+                        <div>
+                            {!! $data->privacyPolicy->description !!}
+                        </div>
+                    @else
+                        <div class="text-center">
+                            <i class="fa fa-exclamation-circle fa-2x"></i>
+                            <h4>No privacy & policy Found</h4>
+                        </div>
+                    @endif
                 </div>
-
             </div>
         </div>
     </section>
@@ -39,8 +37,12 @@
 
 @section('style')
     <style>
-        .about-captione ul {
+        .blog-pots ul,
+        .blog-pots ul li {
             list-style: unset;
+        }
+        .inner-pages section.blog-section {
+            padding: 4rem 0;
         }
     </style>
 @stop

@@ -176,7 +176,7 @@
         .listings .project-inner .homes .image:hover {}
         .custom-btn {
             padding: 4px 12px;
-            background: #FA2964;
+            background: #004680;
             color: #fff !important;
             border-radius: 4px;
         }
@@ -191,10 +191,10 @@
             line-height: 18px !important;
         }
         .how-it-works .serv-flex {
-            color: #FA2964;
+            color: #004680;
         }
         .btn-yellow {
-            background: #fa2964;
+            background: #004680;
         }
         .mapboxgl-ctrl-geocoder {
             width: 100%;

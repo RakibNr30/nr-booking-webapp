@@ -1,11 +1,11 @@
 ::selection {
-	background: #ff5a5f
+	background: #004680;
 }
 ::-moz-selection {
-background:#ff5a5f
+background:#004680;
 }
 ::-webkit-selection {
-background:#ff5a5f
+background:#004680;
 }
 
 
@@ -19,16 +19,16 @@ background:#ff5a5f
 
 /*-----Text Color-----*/
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a:active, a:hover, a:focus, .header-nav .nav > li:hover > a, .header-nav .nav > li.active > a, .header-nav .nav > li.current-menu-item > a, .sx-text-primary,.testimonial-2 .fa-quote-right,.filter-pos-right .btn-filter-wrap li.btn-active,.filter-pos-right .btn-filter-wrap li:hover,.footer-dark .footer-top a:active, .footer-dark .footer-top a:focus, .footer-dark .footer-top a:hover,.site-footer .widget_services ul li a:hover,.filter-navigation li.active a,.our-team-3 .our-team-info .our-team-content a:hover,h1 a.sx-text-white:hover, h2 a.sx-text-white:hover, h3 a.sx-text-white:hover, h4 a.sx-text-white:hover, h5 a.sx-text-white:hover, h6 a.sx-text-white:hover,.testimonial-1 .fa-quote-right,.sx-breadcrumb li a,.sx-breadcrumb li a:hover,.widget_services ul li a:hover,.page-notfound span.title,.widget_tag_cloud a:hover{
-    color: #ff5a5f;
+    color: #004680;;
 }
 .our-story-year{
-    color: #ff5a5f !important;
+    color: #004680; !important;
 }
 
 
 /*-----Border Color-----*/
 .get-in-touch-btn.from-top::before,.about-home-left,.from-top::before, .image-effect-one .mfp-link{
-	border-color: #ff5a5f;
+	border-color: #004680;;
 }
 /*==== revolution slider Navigation====*/
 
@@ -129,7 +129,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a:active
 }
 
 .site-button {
-	background-color: #ff5a5f;
+	background-color: #004680;;
 	color: #fff;
 }
 
@@ -137,7 +137,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, a:active
 .site-button:hover,
 .site-button:focus,
 .active>.site-button {
-	background-color: #ff5a5f;
+	background-color: #004680;;
 	color: #fff;
 }
 

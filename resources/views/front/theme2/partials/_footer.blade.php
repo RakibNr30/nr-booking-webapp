@@ -8,7 +8,7 @@
                             <img src="{{ $globalSite->logo_light->file_url ?? config('core.image.' . config('core.theme') . '.default.logo_light') }}" alt="netcom">
                         </a>
                         <p class="text-justify">
-                            Hotel Retailers saves you the time, comparing great rates around the world and bringing you only the best prices
+                            LuxHotelDeals collects the best prices for luxury hotels around the world and brings them to you in one, easy to access and navigate process
                         </p>
                     </div>
                     <div class="contactus">

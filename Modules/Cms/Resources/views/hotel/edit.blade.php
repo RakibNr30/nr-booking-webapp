@@ -60,7 +60,7 @@
                                     <label for="continent" class="@error('continent') text-danger @enderror">Continent</label>
                                     <select id="continent" name="continent"
                                             class="form-control @error('continent') is-invalid @enderror">
-                                        <option value="">Select Blood Group</option>
+                                        <option value="">Select Continent</option>
                                         @foreach(config('core.continents') as $continent_key => $continent)
                                             <option value="{{ $continent_key }}" {{ $continent_key == $hotel->continent ? 'selected' : '' }}>{{ $continent }}
                                             </option>

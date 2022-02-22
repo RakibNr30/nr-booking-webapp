@@ -4,30 +4,33 @@
 @stop
 
 @section('content')
-    <div class="image-cover page-title" style="background:url({{ $globalSite->breadcrumb_image->file_url ?? config('core.image.' . config('core.theme') . '.default.breadcrumb_image') }}) no-repeat;" data-overlay="6">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <h2 class="ipt-title">{{ $data->page->title ?? '' }}</h2>
-                </div>
+    <section class="headings" style="background:url({{ $globalSite->breadcrumb_image->file_url ?? config('core.image.' . config('core.theme') . '.default.breadcrumb_image') }}) no-repeat;">
+        <div class="text-heading text-center">
+            <div class="container">
+                <h1>{{ $data->page->title }}</h1>
+                <h2>
+                    <a href="{{ route('front.index') }}">Home </a> &nbsp;/&nbsp; {{ $data->page->title }}
+                </h2>
             </div>
         </div>
-    </div>
+    </section>
 
-    <section>
+    <section class="blog blog-section">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12 blog-pots">
                     @if(isset($data->page->feature_image))
-                        <div class="mb-5">
-                            <img src="{{ $data->page->feature_image->file_url }}" style="max-width: 100%" alt="">
+                        <div>
+                            <div class="mb-5">
+                                <img src="{{ $data->page->feature_image->file_url }}" style="max-width: 100%" alt="">
+                            </div>
+                        </div>
+                    @else
+                        <div>
+                            {!! $data->page->description !!}
                         </div>
                     @endif
-                    <div class="about-captione">
-                        {!! $data->page->description !!}
-                    </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -35,11 +38,12 @@
 
 @section('style')
     <style>
-        .about-captione ul {
+        .blog-pots ul,
+        .blog-pots ul li {
             list-style: unset;
         }
-        b, strong {
-            font-weight: bold;
+        .inner-pages section.blog-section {
+            padding: 4rem 0;
         }
     </style>
 @stop
